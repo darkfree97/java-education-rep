@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="711.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/8.0.101" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+   <children>
+      <Label layoutX="32.0" layoutY="36.0" text="Прізвище" />
+      <TextField fx:id="surname" layoutX="155.0" layoutY="32.0" prefHeight="25.0" prefWidth="174.0" />
+      <Label layoutX="32.0" layoutY="70.0" text="Ім'я" />
+      <TextField fx:id="name" layoutX="155.0" layoutY="66.0" prefHeight="25.0" prefWidth="174.0" />
+      <Label layoutX="32.0" layoutY="105.0" text="По-Батькові" />
+      <TextField fx:id="middle" layoutX="154.0" layoutY="101.0" prefHeight="25.0" prefWidth="174.0" />
+      <Label layoutX="32.0" layoutY="148.0" text="Дата народження" />
+      <DatePicker fx:id="birthd" layoutX="156.0" layoutY="144.0" />
+      <ColorPicker fx:id="my_color" layoutX="512.0" layoutY="32.0" />
+      <ProgressBar fx:id="status" layoutX="31.0" layoutY="225.0" prefHeight="18.0" prefWidth="603.0" />
+      <Button fx:id="ok" layoutX="307.0" layoutY="188.0" mnemonicParsing="false" text="Гаразд" />
+      <Label layoutX="370.0" layoutY="36.0" text="Колір ваших очей" />
+      <Label layoutX="370.0" layoutY="70.0" text="Чи є у вас совість?" />
+      <RadioButton fx:id="chb_yes" layoutX="385.0" layoutY="105.0" mnemonicParsing="false" text="Так">
+         <toggleGroup>
+            <ToggleGroup fx:id="animals" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="chb_no" layoutX="512.0" layoutY="105.0" mnemonicParsing="false" selected="true" text="Ні" toggleGroup="$animals" />
+      <TextArea fx:id="text" editable="false" layoutX="31.0" layoutY="248.0" prefHeight="131.0" prefWidth="603.0" />
+      <Accordion layoutX="386.0" layoutY="128.0" />
+    <TitledPane fx:id="ch_games" expanded="false" layoutX="360.0" layoutY="144.0" prefHeight="195.0" prefWidth="273.0" text="У які комп'ютерні ігри ви грали?">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="281.0">
+               <children>
+                  <CheckBox fx:id="ch_witcher" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="The Witcher 3" />
+                  <CheckBox fx:id="ch_watch" layoutX="14.0" layoutY="39.0" mnemonicParsing="false" text="Overwatch" />
+                  <CheckBox fx:id="ch_FF15" layoutX="14.0" layoutY="64.0" mnemonicParsing="false" text="Final Fantasy 15" />
+                  <CheckBox fx:id="ch_HM" layoutX="14.0" layoutY="89.0" mnemonicParsing="false" text="Hotline Miami" />
+                  <CheckBox fx:id="ch_goat" layoutX="14.0" layoutY="116.0" mnemonicParsing="false" prefHeight="3.0" prefWidth="73.0" text="Goat simulator" />
+                  <CheckBox fx:id="ch_doom" layoutX="14.0" layoutY="146.0" mnemonicParsing="false" text="Doom" />
+               </children>
+            </AnchorPane>
+      </content>
+    </TitledPane>
+      <ImageView fx:id="image" fitHeight="250.0" fitWidth="273.0" layoutX="208.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images_1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="259.0" layoutY="403.0" text="Введіть адрес фотографії" />
+      <TextField fx:id="_href" layoutX="221.0" layoutY="420.0" text="..\..\images_1.png" />
+      <Button fx:id="_show_im" layoutX="379.0" layoutY="420.0" mnemonicParsing="false" text="Показати" />
+   </children>
+</Pane>
