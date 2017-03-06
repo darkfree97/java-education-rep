@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="357.0" prefWidth="447.0" styleClass="body" stylesheets="@Lab6.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <CheckBox fx:id="op1" allowIndeterminate="true" layoutX="36.0" layoutY="14.0" mnemonicParsing="false" onAction="#opClick1" prefHeight="33.0" prefWidth="69.0" styleClass="chb" text="None" />
+      <CheckBox fx:id="op2" allowIndeterminate="true" layoutX="349.0" layoutY="14.0" mnemonicParsing="false" onAction="#opClick2" prefHeight="33.0" prefWidth="69.0" styleClass="chb" text="None" />
+      <Button fx:id="nLeft" layoutX="19.0" layoutY="61.0" mnemonicParsing="false" onAction="#nlClick" prefHeight="29.0" prefWidth="100.0" styleClass="btn" text="NOT Left" />
+      <Button fx:id="and" layoutX="119.0" layoutY="61.0" mnemonicParsing="false" onAction="#andClick" prefHeight="29.0" prefWidth="69.0" styleClass="btn" text="AND" />
+      <Button fx:id="or" layoutX="199.0" layoutY="61.0" mnemonicParsing="false" onAction="#orClick" prefHeight="29.0" prefWidth="51.0" styleClass="btn" text="OR" />
+      <Button layoutX="264.0" layoutY="61.0" mnemonicParsing="false" onAction="#xorClick" prefHeight="29.0" prefWidth="69.0" styleClass="btn" text="XOR" fx:id="xor" />
+      <Button fx:id="nRight" layoutX="333.0" layoutY="61.0" mnemonicParsing="false" onAction="#nrClick" prefHeight="29.0" prefWidth="100.0" styleClass="btn" text="NOT Right" />
+      <TextArea fx:id="message" editable="false" layoutX="15.0" layoutY="135.0" prefHeight="208.0" prefWidth="418.0" />
+      <MenuButton fx:id="mem_op" layoutX="108.0" layoutY="14.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="238.0" styleClass="drop" text="Set value from memory">
+        <items>
+          <MenuItem fx:id="wrl" mnemonicParsing="false" onAction="#wrlClick" text="Set value to left operand" />
+          <MenuItem fx:id="wrr" mnemonicParsing="false" onAction="#wrrClick" text="Set value to right operand" />
+        </items>
+      </MenuButton>
+      <Button fx:id="eqv" layoutX="264.0" layoutY="96.0" mnemonicParsing="false" onAction="#eqvClick" prefHeight="29.0" prefWidth="69.0" styleClass="btn" text="EQV" />
+      <Button fx:id="ms" layoutX="19.0" layoutY="96.0" mnemonicParsing="false" onAction="#msClick" prefHeight="29.0" prefWidth="51.0" styleClass="btn" text="MS" />
+      <Button fx:id="mc" disable="true" layoutX="68.0" layoutY="96.0" mnemonicParsing="false" onAction="#mcClick" prefHeight="29.0" prefWidth="51.0" styleClass="btn" text="MC" />
+      <Button fx:id="ce" layoutX="333.0" layoutY="96.0" mnemonicParsing="false" onAction="#ceClick" prefHeight="29.0" prefWidth="100.0" styleClass="btn" text="CE" />
+      <Button fx:id="shef" layoutX="119.0" layoutY="96.0" mnemonicParsing="false" onAction="#shClick" prefHeight="29.0" prefWidth="69.0" styleClass="btn" text="SH" />
+      <Button fx:id="pirs" layoutX="199.0" layoutY="96.0" mnemonicParsing="false" onAction="#spClick" prefHeight="29.0" prefWidth="51.0" styleClass="btn" text="SP" />
+   </children>
+</Pane>
