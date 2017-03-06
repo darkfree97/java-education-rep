@@ -1,0 +1,47 @@
+.chb{
+	-fx-border-radius:15px;
+	-fx-background-radius:15px;
+	-fx-background-color:#e6ff21;
+	-fx-border-color:cyan;
+	-fx-label-padding:2px;
+	-fx-padding:5px;
+	-fx-text-fill:#4e4946;
+}
+.chb:hover{
+	-fx-background-color:greenyellow;
+	-fx-text-fill:black;
+}
+.body{
+	-fx-background-image:url("images/back.jpg");
+	/*-fx-background-color: red;*/
+}
+.btn{
+	-fx-position:absolute;
+	-fx-outline: none;
+	-fx-padding: 6px 14px;
+	-fx-text-fill: black;
+	-fx-border-color: #ccc;
+	-fx-background-color: #ccc;
+	-fx-background-radius: 14px;
+	-fx-border-radius: 14px;
+	-fx-border-color:violet;
+	-fx-opacity:0.9;
+}
+.btn:pressed:hover{
+	-fx-text-fill: #ff2cb6;
+	-fx-opacity:0.7;
+}
+.btn:hover{
+	-fx-text-fill: white;	
+}
+.drop{
+	-fx-position:absolute;
+	-fx-outline: none;
+	-fx-padding: 3px;
+	-fx-text-fill: #777;
+	-fx-border-color:cyan;
+	-fx-background-color: white;
+	-fx-background-radius: 14px;
+	-fx-border-radius: 14px;
+	-fx-opacity:0.6;
+}
