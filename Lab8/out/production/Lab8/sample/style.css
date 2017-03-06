@@ -1,0 +1,14 @@
+.button{
+    -fx-opacity: 90%;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+.button:hover{
+    -fx-opacity: 100%;
+}
+.button:disabled{
+    -fx-opacity: 50%;
+}
+.self{
+    -fx-background-image: url("book.jpg");
+}

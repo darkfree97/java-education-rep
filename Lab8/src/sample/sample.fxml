@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import sample.MyButton?>
+
+<BorderPane prefHeight="288.0" prefWidth="685.0" styleClass="self" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.101" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="241.0" prefWidth="685.0">
+         <children>
+            <MyButton fx:id="lvl1_but1" layoutX="295.0" layoutY="14.0" mnemonicParsing="false" text="Games" />
+            <MyButton fx:id="lvl2_but1" layoutX="78.0" layoutY="49.0" mnemonicParsing="false" text="RPG" />
+            <MyButton fx:id="lvl2_but2" layoutX="291.0" layoutY="49.0" mnemonicParsing="false" text="Stealth/Shooter" />
+            <MyButton fx:id="lvl2_but3" layoutX="507.0" layoutY="49.0" mnemonicParsing="false" text="Action/Horor" />
+            <MyButton fx:id="lvl3_but1" layoutX="-9.0" layoutY="88.0" mnemonicParsing="false" text="Blizzard" />
+            <MyButton fx:id="lvl3_but2" layoutX="64.0" layoutY="88.0" mnemonicParsing="false" text="Bethesda" />
+            <MyButton fx:id="lvl3_but3" layoutX="141.0" layoutY="88.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="BioWare" />
+            <MyButton fx:id="lvl3_but4" layoutX="238.0" layoutY="88.0" mnemonicParsing="false" text="Ubisoft" />
+            <MyButton fx:id="lvl3_but5" layoutX="302.0" layoutY="88.0" mnemonicParsing="false" text="Valve" />
+            <MyButton fx:id="lvl3_but6" layoutX="354.0" layoutY="88.0" mnemonicParsing="false" text="Capcom" />
+            <MyButton fx:id="lvl3_but7" layoutX="422.0" layoutY="88.0" mnemonicParsing="false" text="Konami" />
+            <MyButton fx:id="lvl3_but8" layoutX="495.0" layoutY="88.0" mnemonicParsing="false" text="Rockstar" />
+            <MyButton fx:id="lvl3_but9" layoutX="571.0" layoutY="88.0" mnemonicParsing="false" text="Naughty Dog" />
+            <MyButton fx:id="lvl4_but1" layoutX="-2.0" layoutY="126.0" mnemonicParsing="false" text="WoW" />
+            <MyButton fx:id="lvl4_but2" layoutX="-1.0" layoutY="151.0" mnemonicParsing="false" text="StarCraft" />
+            <MyButton fx:id="lvl4_but3" layoutX="-1.0" layoutY="176.0" mnemonicParsing="false" text="Overwatch" />
+            <MyButton fx:id="lvl4_but4" layoutX="59.0" layoutY="126.0" mnemonicParsing="false" text="Wolfenstine" />
+            <MyButton fx:id="lvl4_but5" layoutX="60.0" layoutY="151.0" mnemonicParsing="false" text="Skyrim" />
+            <MyButton fx:id="lvl4_but6" layoutX="63.0" layoutY="176.0" mnemonicParsing="false" text="Dishonored" />
+            <MyButton fx:id="lvl4_but7" layoutX="144.0" layoutY="126.0" mnemonicParsing="false" text="SWTOR" />
+            <MyButton fx:id="lvl4_but8" layoutX="152.0" layoutY="151.0" mnemonicParsing="false" text="Mass Effect" />
+            <MyButton fx:id="lvl4_but9" layoutX="149.0" layoutY="176.0" mnemonicParsing="false" text="Dragon Age" />
+            <MyButton fx:id="lvl4_but11" layoutX="238.0" layoutY="126.0" mnemonicParsing="false" text="Assassins Creed" />
+            <MyButton fx:id="lvl4_but12" layoutX="227.0" layoutY="151.0" mnemonicParsing="false" text="Watch Dogs" />
+            <MyButton fx:id="lvl4_but13" layoutX="236.0" layoutY="176.0" mnemonicParsing="false" text="For Honor" />
+            <MyButton fx:id="lvl4_but14" layoutX="304.0" layoutY="126.0" mnemonicParsing="false" text="Dota 2" />
+            <MyButton fx:id="lvl4_but15" layoutX="279.0" layoutY="151.0" mnemonicParsing="false" text="Half Life" />
+            <MyButton fx:id="lvl4_but16" layoutX="299.0" layoutY="176.0" mnemonicParsing="false" text="CS:GO" />
+            <MyButton fx:id="lvl4_but17" layoutX="349.0" layoutY="126.0" mnemonicParsing="false" text="Dmc" />
+            <MyButton fx:id="lvl4_but18" layoutX="335.0" layoutY="151.0" mnemonicParsing="false" text="Dead Rising" />
+            <MyButton fx:id="lvl4_but19" layoutX="343.0" layoutY="176.0" mnemonicParsing="false" text="Resident Evil" />
+            <MyButton fx:id="lvl4_but21" layoutX="443.0" layoutY="123.0" mnemonicParsing="false" text="Metal Gear" />
+            <MyButton fx:id="lvl4_but22" layoutX="435.0" layoutY="148.0" mnemonicParsing="false" text="Silent Hill" />
+            <MyButton fx:id="lvl4_but23" layoutX="435.0" layoutY="173.0" mnemonicParsing="false" text="Castlevania" />
+            <MyButton fx:id="lvl4_but24" layoutX="485.0" layoutY="123.0" mnemonicParsing="false" text="RDR" />
+            <MyButton fx:id="lvl4_but25" layoutX="501.0" layoutY="148.0" mnemonicParsing="false" text="GTA" />
+            <MyButton fx:id="lvl4_but26" layoutX="514.0" layoutY="173.0" mnemonicParsing="false" text="Max Payne" />
+            <MyButton fx:id="lvl4_but27" layoutX="597.0" layoutY="123.0" mnemonicParsing="false" text="Uncharted" />
+            <MyButton fx:id="lvl4_but28" layoutX="594.0" layoutY="148.0" mnemonicParsing="false" text="Crash Bandicoot" />
+            <MyButton fx:id="lvl4_but29" layoutX="579.0" layoutY="173.0" mnemonicParsing="false" text="The Last of Us" />
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Файл">
+            <items>
+              <MenuItem fx:id="adminMode" mnemonicParsing="false" text="Режим адміністратора" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <bottom>
+      <Label fx:id="lbl" text="Label" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
