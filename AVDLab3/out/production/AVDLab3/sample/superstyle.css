@@ -1,0 +1,25 @@
+.button{
+    -fx-opacity: 90%;
+}
+.button:hover:pressed{
+    -fx-opacity: 90%;
+}
+.button:hover{
+    -fx-opacity: 90%;
+}
+.ppane{
+    -fx-background-image: url("img/forest_76-wallpaper-1366x768.jpg");
+}
+
+.lbl{
+    -fx-text-fill: aliceblue;
+}
+.text-field{
+    -fx-opacity: 90%;
+}
+.text-area{
+    -fx-opacity: 90%;
+}
+.menu{
+    -fx-text-fill: black;
+}
